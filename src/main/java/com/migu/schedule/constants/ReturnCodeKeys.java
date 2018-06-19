@@ -9,7 +9,7 @@ public final class ReturnCodeKeys {
     public static final int E006 = 6;
     public static final int E007 = 7;
     public static final int E008 = 8;
-    
+    public static final int E0085 = 85;
     public static final int E009 = 9;
     public static final int E010 = 10;
     public static final int E011 = 11;
