@@ -23,21 +23,20 @@ public class Schedule {
 
 
 
-    Comparator<TaskInfo> comparator = new Comparator<TaskInfo>(){
+    private Comparator<TaskInfo> comparator = new Comparator<TaskInfo>(){
         public int compare(TaskInfo taskInfo1, TaskInfo taskInfo2) {
             return (taskInfo1.getTaskId()-taskInfo2.getTaskId());
         }
     };
 
-    Comparator<TaskInfo> comparatorByNodeId = new Comparator<TaskInfo>(){
+    private Comparator<TaskInfo> comparatorByNodeId = new Comparator<TaskInfo>(){
         public int compare(TaskInfo taskInfo1, TaskInfo taskInfo2) {
             return (taskInfo1.getNodeId()-taskInfo2.getNodeId());
         }
     };
 
-    Comparator<Integer> comparatorByTime = new Comparator<Integer>(){
+    private Comparator<Integer> comparatorByTime = new Comparator<Integer>(){
         public int compare(Integer integer1, Integer integer2) {
-    taskInfo1
             return (taskMap.get(integer2)-taskMap.get(integer1));
         }
     };
